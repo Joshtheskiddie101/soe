@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 
 // 3. EXPRESS 5 CATCH-ALL
 // In Express 5, you MUST use a named parameter for wildcards
-app.get('/:any*', (req, res) => {
+app.get('/*splat', (req, res) => {
     res.status(404).send("Not found");
 });
 
