@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bursary & Tuition | SOE Payment</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <nav>
+        <div class="logo-section">
+            <div class="logo-shield"><img src="/images/logo.jpg" alt="" /></div>
+            <div class="logo-text"><h1>SCHOOL OF EXCELLENCE</h1></div>
+        </div>
+        <div class="nav-links">
+            <a href="/">INSTITUTION</a>
+            <a href="/library">CURRICULUM</a>
+            <a href="/payment">BURSARY</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="glass-box" style="max-width: 900px; margin: auto;">
+            <h1 class="hero-title" style="text-align: center;">Bursar's Office</h1>
+            
+            <div class="grid" style="margin-bottom: 40px;">
+                <div class="card">
+                    <h4>Annual Tuition</h4>
+                    <p style="font-size: 1.5rem; color: var(--gold);">$45,000.00</p>
+                    <small>Covers all courses and lab access.</small>
+                </div>
+                <div class="card">
+                    <h4>Tech & Lab Fee</h4>
+                    <p style="font-size: 1.5rem; color: var(--gold);">$3,500.00</p>
+                    <small>Maintenance of 3D and AI clusters.</small>
+                </div>
+            </div>
+
+            <form style="display: flex; flex-direction: column; gap: 20px;">
+                <h3 style="color: var(--gold); font-family: 'Cinzel'; border-bottom: 1px solid var(--border);">Student Verification</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <input type="text" placeholder="Full Student Name" style="padding:15px; background:rgba(0,0,0,0.5); border:1px solid var(--border); color:white;">
+                    <input type="text" placeholder="Admission ID (SOE-XXXX)" style="padding:15px; background:rgba(0,0,0,0.5); border:1px solid var(--border); color:white;">
+                </div>
+
+                <h3 style="color: var(--gold); font-family: 'Cinzel'; border-bottom: 1px solid var(--border);">Financial Details</h3>
+                <input type="text" placeholder="Credit Card / Wire Transfer Reference" style="padding:15px; background:rgba(0,0,0,0.5); border:1px solid var(--border); color:white;">
+                
+                <div style="display: flex; gap: 20px;">
+                    <input type="text" placeholder="Expiry Date" style="flex:1; padding:15px; background:rgba(0,0,0,0.5); border:1px solid var(--border); color:white;">
+                    <input type="text" placeholder="CVV" style="flex:1; padding:15px; background:rgba(0,0,0,0.5); border:1px solid var(--border); color:white;">
+                </div>
+
+                <button type="button" class="btn-gold" style="font-size: 1.2rem;">COMPLETE ENROLLMENT PAYMENT</button>
+            </form>
+        </div>
+    </div>
+    <footer>&copy; 2026 School for Excellence. Secure Bursary Portal.</footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>
